@@ -8,7 +8,7 @@
 *
 *
 *******************************************************************************
-* Copyright 2024, Cypress Semiconductor Corporation (an Infineon company) or
+* Copyright 2024-2025, Cypress Semiconductor Corporation (an Infineon company) or
 * an affiliate of Cypress Semiconductor Corporation.  All rights reserved.
 *
 * This software, including source code, documentation and related
@@ -135,7 +135,7 @@ int main(void)
     Cy_SCB_UART_PutString(KIT_UART_HW, "\x1b[2J\x1b[;H");
 
     Cy_SCB_UART_PutString(KIT_UART_HW, "************************************************************\r\n");
-    Cy_SCB_UART_PutString(KIT_UART_HW, "PSoC MCU UART Transmit and Receive using DMA\r\n");
+    Cy_SCB_UART_PutString(KIT_UART_HW, "PSOC MCU UART Transmit and Receive using DMA\r\n");
     Cy_SCB_UART_PutString(KIT_UART_HW, "************************************************************\r\n\n");
     Cy_SCB_UART_PutString(KIT_UART_HW, ">> Start typing to see the echo on the screen \r\n\n");
 
